@@ -1,33 +1,168 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
-  <link rel = "stylesheet" type="text/css" href="style.css"/>
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-</head>
-<body>
-  <header>
-    <a href="home.html"><img src="images/hotelLogo.png" alt="Pokemon Hotel" style="height:100px;display:block;margin-left:auto;margin-right:auto;"></a>
-    <hr>
-    <div class="topnav">
-      <a href="overview.html">Overview</a>
-      <a href="#">Facilities and Services</a>
-      <a href="contactus.html">Contact Us</a>
-      <a href="rooms.html">Rooms</a>
-      <a href="reservations.html">Make a Reservation</a>
-    </div>
-  </header>
+    <head>
+        <title>Facilities</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <style>
+            .main {
+              background-color: rgba(255,255,255,0.98);
+              height: 100vh;
+              width: 100%;
+              padding-left: 4%;
+              padding-right: 2%;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            .main h2 {
+              /* font-style: pokesolid; */
+              display: block;
+              text-align: center;
+              font-size: 50px;
+              font-family: pokesolid;
+              letter-spacing: 0.2em;
+              color: rgb(255, 222, 0);
+              text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+            }
 
-  <p>facilities</p>
-  <footer>
-    <div class="footer">
-      <i class='far fa-envelope'></i><a href="mailto:enquiries@pokemonhotel.com"> enquiries@pokemonhotel.com</a><br>
-      <br>
-      <i class='fas fa-street-view'><a href="https://goo.gl/maps/qGDNEUWM8AsKNfgb9"> 8 Marina Blvd, Singapore 018984</a></i><br>
-      <br>
-      <i class="fas fa-phone-alt"></i><a href="tel:6638 6638"> tel: 6638 6638</a>
-    </div>
-  </footer>
-</i>
-</body>
+            .title {
+              font-size: 55px;
+              letter-spacing: 0.1em;
+              font-family: Arial, Helvetica, sans-serif;
+              color: maroon;
+              font-weight: bold;
+            }
+            .main img:not(#shay) {
+              width: 800px;
+              display: inline-block;
+            }
+
+            .grey {
+              background-color: lightgrey;
+              width: 100%;
+              overflow: auto;
+              padding-left: 5%;
+              padding-top: 1%;
+              padding-bottom: 1%;
+            }
+            .white {
+              background-color: white;
+              width: 100%;
+              overflow: auto;
+              padding-left: 5%;
+              padding-top: 1%;
+              padding-bottom: 1%;
+            }
+            .desc {
+              display: block;
+              font-size: 20px;
+              text-align: center;
+              margin-left: 25%;
+              margin-right: 25%;
+            }
+            .ga {
+              padding-right: 50%;
+            }
+            #shay {
+              height: 150px;
+              width: auto;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="site">
+            <header>
+                <a href="home.html"><img src="images/hotelLogo.png" alt="Pokemon Hotel" style="height:100px;display:block;margin-left:auto;margin-right:auto;"></a>
+                <hr>
+                <div class="topnav">
+                <a href="overview.html">Overview</a>
+                <a href="facilities.html">Facilities and Services</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="rooms.html">Rooms</a>
+                <a href="reservations.html">Make a Reservation</a>
+                </div>
+            </header>
+
+            <div class="main">
+                    <br><br><br>
+                <h2>Our Facilities!</h2>
+                <br>
+                <span class="desc">We have pokemon-themed facilities, come drop by and see if you can name all the pokemon! <br>Who knows, you might even get to see a legendary pokemon </span>
+                <br>
+
+                <div class="row grey">
+                    <div class="col-sm-6 ga">
+                        <span class="vert">
+                            <span class="title">Pokemon Center</span><br>
+                            <p>Choose your starter pokemon here! Head Nurse Joy, and her many cousins who also work there, will help you pick out your starter pokemon. Simply present your hotel room key and pokedex! Many other pokemon merchandise are also sold here, with a free premier ball on purchases over $50.</p>
+                        </span>
+                    </div>
+                    <div class="col-sm-6 gb">
+                        <img src="images/pokemoncenter.jpg">
+                    </div>
+                </div>
+
+                <div class="row white">
+                    <div class="col-sm-6 wa">
+                        <img src="images/cafe.png">
+                    </div>
+                    <div class="col-sm-6 wb">
+                        <span class="title">Cafe Sonata</span><br>
+                        <p> After a visit to the Pokémon Center, you can take a break and eat at the Pokémon Cafe. It offers a wide menu of hot and cold drinks, all with a Pokémon theme, of course. For example, you can try a Pikachu or Eevee latte, a Gengar smoothie, or cocktails of the different Eevee evolutions. As for food, there's a range of completely original Pokémon-themed dishes! Pancakes, fruit salad, burgers... The majority feature Pikachu, the star of Pokémon, such as the Pikachu omelet.</p>
+                    </div>
+                </div>
+
+                <div class="row grey">
+                    <div class="col-sm-6 ga">
+                        <span class="title">Swimming Pool</span><br>
+                        <p>Exclusively for the use of hotel guests, you can relax in the outdoor Jacuzzi with some fire types, have a swim in the pool, or simply order a drink or two from the Poolside and enjoy the greenery. Poolside menu, towel service and locker rooms are available. For the younger trainers, Squirtle donuts are available too.
+                        <br>
+                        <br>
+                        Poolside Operating Hours: 7 a.m. to 10 p.m. (daily)</p>
+                    </div>
+                    <div class="col-sm-6 gb">
+                        <img src="images/pool.jpg">
+                    </div>
+                </div>
+
+                <div class="row white">
+                    <div class="col-sm-6 wa">
+                        <img src="images/garden2.png">
+                    </div>
+                    <div class="col-sm-6 wb">
+                        <span class="title">Rooftop Garden</span><br>
+                        <p> Here you will be welcomed by warm & friendly staff and enjoy meals & snack or savor your favorite cocktail at sunset. There is a variety of high quality drinks to suit everyone’s taste. Many flying and forest-y pokemons are to be seen too!</p>
+                    </div>
+                </div>
+
+                <div class="row grey">
+                    <div class="col-sm-6 ga">
+                        <span class="title">Gym</span><br>
+                        <p>The hotel's 24-hour gym allows guests to maintain their fitness program while visiting Singapore. In addition to cardio and strength machines, free weights and TRX suspension equipment, the wellness space features a movement studio with yoga mats, boxing gear, medicine balls and resistance bands. Lockers, showers, jet pools and steam rooms are part of the experience. Those seeking guidance can reserve personal training sessions. Locals or frequent guests can benefit from a gym membership, available for one, six or 12 months, which includes additional amenities and hotel privileges.</p>
+
+
+                    </div>
+                    <div class="col-sm-6 gb">
+                        <img src="images/gym2.jpeg">
+                    </div>
+                </div>
+
+                <img src="images/shaymin.png" id="shay" height="30px" width="30px">
+            </div>
+
+            <!-- <footer>
+                <div class="footer">
+                <i class='far fa-envelope'></i><a href="mailto:enquiries@pokemonhotel.com"> enquiries@pokemonhotel.com</a><br>
+                <br>
+                <i class='fas fa-street-view'><a href="https://goo.gl/maps/qGDNEUWM8AsKNfgb9"> 8 Marina Blvd, Singapore 018984</a></i><br>
+                <br>
+                <i class="fas fa-phone-alt"></i><a href="tel:6638 6638"> tel: 6638 6638</a>
+                </div>
+            </footer> -->
+        </div>
+    </body>
 </html>
