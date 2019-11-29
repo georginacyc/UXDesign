@@ -19,7 +19,40 @@
   </header>
 
 
-<p>home</p>
+
+    <div class="about">
+    <h2 >DISCOVER YOUR INNER POKEMON</h2>
+    <p>WHERE DREAMS COME ALIVE</p>
+    <div class="about-content">
+      <p>o</p>
+      </div>
+  </div>
+  <div class="shoeonfeet" style="max-width:100%">
+    <img class="mySlides" src="https://nintendosoup.com/wp-content/uploads/2017/08/pokemon_hotel_haeundaegrandhotel_2017_1-960x576.jpg" style="width:100%">
+    <img class="mySlides" src="https://r-cf.bstatic.com/images/hotel/max1024x768/193/193432018.jpg" style="width:100%">
+
+  </div>
+  <script> //js for auto slides
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <div class="des">
+    <h2>DESCRIPTION</h2>
+    <p>Why choose us? We for one provide excellent facilities and services</p>
+    </div>
+<div class="table1">
 
   <footer>
     <div class="footer">
@@ -30,5 +63,13 @@
       <i class="fas fa-phone-alt"></i><a href="tel:6638 6638"> tel: 6638 6638</a>
     </div>
   </footer>
+  <style>
+    body{
+  text-align: center;
+  background-color: white;
+  font-family: Arial;
+  margin: 0;
+}
+  </style>
 </body>
 </html>
