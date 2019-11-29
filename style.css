@@ -4,6 +4,7 @@
   font-family: 'Montserrat', sans-serif;
   margin: auto;
   width: 50%;
+  text-align: center;
 }
 
 /* Style the topnav links */
@@ -78,4 +79,13 @@ h2 {
 }
 .table1{
   padding:50px;
+}
+
+@font-face {
+  font-family: pokehollow;
+  src: url(fonts/Pokemon\ Hollow.ttf);
+}
+@font-face {
+  font-family: pokesolid;
+  src: url(fonts/Pokemon\ Solid.ttf);
 }
