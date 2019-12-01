@@ -1,4 +1,13 @@
 /* Style the top navigation bar */
+header{
+  margin-top: 10px;
+}
+
+body{
+  font-family: "Raleway";
+  margin:0;
+  padding:0;
+}
 .topnav {
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
@@ -24,11 +33,9 @@
   font-weight: bold;
 }
 footer{
-  margin-left: -0.4%;
   background: #5e727d;
   color: white;
   position:absolute;
-  bottom: 0;
   width:100%;
   font-family: "Raleway";
   text-align: center;

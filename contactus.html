@@ -4,31 +4,89 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
   <link rel = "stylesheet" type="text/css" href="style.css"/>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <style>
+
+.map{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.contactbody{
+  display: inline-block;
+}
+form{
+  font-family: "Raleway";
+}
+input{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Raleway";
+}
+select{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Raleway";
+}
+textarea{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Raleway";
+}
+.cbody{
+margin:0 auto;
+width: 75%;
+}
+  </style>
 </head>
 <body>
-  <header>
-    <a href="home.html"><img src="images/hotelLogo.png" alt="Pokemon Hotel" style="height:100px;display:block;margin-left:auto;margin-right:auto;"></a>
-    <hr>
-    <div class="topnav">
-      <a href="overview.html">Overview</a>
-      <a href="facilities.html">Facilities and Services</a>
-      <a href="#">Contact Us</a>
-      <a href="rooms.html">Rooms</a>
-      <a href="reservations.html">Make a Reservation</a>
-    </div>
-  </header>
+<header>
+  <a href="home.html"><img src="images/hotelLogo.png" alt="Pokemon Hotel" style="height:100px;display:block;margin-left:auto;margin-right:auto;"></a>
+  <hr>
+  <div class="topnav">
+    <a href="overview.html">Overview</a>
+    <a href="facilities.html">Facilities and Services</a>
+    <a href="rooms.html">Rooms</a>
+    <a href="reservations.html">Make a Reservation</a>
+    <a href="#">Contact Us</a>
+  </div>
+</header>
+<div class="cbody">
+  <div class = "map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8228727701535!2d103.85182521457261!3d1.2799095990664875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190fd093c589%3A0xa74701922b89fad!2s8%20Marina%20Blvd%2C%20Singapore%20018981!5e0!3m2!1sen!2ssg!4v1574952842440!5m2!1sen!2ssg" width="300" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <p>Pokemon Hotel</p>
+    <p>8 Marina Blvd, Singapore 018984</p>
+  </div>
 
-<p>contact us</p>
-
-  <footer>
-    <div class="footer">
-      <i class='far fa-envelope'></i><a href="mailto:enquiries@pokemonhotel.com"> enquiries@pokemonhotel.com</a><br>
-      <br>
-      <i class='fas fa-street-view'><a href="https://goo.gl/maps/qGDNEUWM8AsKNfgb9"> 8 Marina Blvd, Singapore 018984</a></i><br>
-      <br>
-      <i class="fas fa-phone-alt"></i><a href="tel:6638 6638"> tel: 6638 6638</a>
-    </div>
-  </footer>
-</i>
+  <div class = "contactbody">
+    <h1>Contact Us</h1>
+    <form >
+      <input type="text" name="fname" placeholder="First name" style="width:300px;">
+      <input type="text" name="lname" placeholder="Last name" style="width:200px;"><br>
+      <select name="Enquiry type" style="width:553px;">
+        <option value="" selected style="display:none;">Enquiry Type</option>
+        <option value="reservation">Reservation</option>
+        <option value="event booking">Event booking</option>
+        <option value="other">other</option>
+      </select><br>
+      <input type="number" name="acode" placeholder="Area Code"> -
+      <input type="number" name="number" placeholder="Phone Number" style="width:350px;"><br>
+      <input type="email" name="emailaddress" placeholder="Email Address" style="width:531px;"><br>
+      <textarea name="message" rows="10" cols="81">Message</textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+<footer>
+  <div class="footer">
+    <i class='far fa-envelope'></i><a href="mailto:enquiries@pokemonhotel.com"> enquiries@pokemonhotel.com</a><br>
+    <br>
+    <i class='fas fa-street-view'><a href="https://goo.gl/maps/qGDNEUWM8AsKNfgb9"> 8 Marina Blvd, Singapore 018984</a></i><br>
+    <br>
+    <i class="fas fa-phone-alt"></i><a href="tel:6638 6638"> tel: 6638 6638</a>
+  </div>
+</footer>
 </body>
 </html>
